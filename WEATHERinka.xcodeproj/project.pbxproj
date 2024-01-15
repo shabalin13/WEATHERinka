@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A02485B436967C89D24AB92 /* Pods_WEATHERinka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA86E1375B4F7B05B77B1E4 /* Pods_WEATHERinka.framework */; };
+		8A9EAF4174B8F5E8F35452CA /* Pods_WEATHERinkaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0916CBE1EBDD7BA3A9FDBA /* Pods_WEATHERinkaTests.framework */; };
 		B68A67AB2B55371D0087A74D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A67AA2B55371D0087A74D /* AppDelegate.swift */; };
 		B68A67AD2B55371D0087A74D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A67AC2B55371D0087A74D /* SceneDelegate.swift */; };
 		B68A67AF2B55371D0087A74D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A67AE2B55371D0087A74D /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		B68A67C52B55371F0087A74D /* WEATHERinkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A67C42B55371F0087A74D /* WEATHERinkaTests.swift */; };
 		B68A67CF2B55371F0087A74D /* WEATHERinkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A67CE2B55371F0087A74D /* WEATHERinkaUITests.swift */; };
 		B68A67D12B55371F0087A74D /* WEATHERinkaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A67D02B55371F0087A74D /* WEATHERinkaUITestsLaunchTests.swift */; };
+		C01E4F86FF7428FFDFC5235C /* Pods_WEATHERinka_WEATHERinkaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BE46A06B3F2D688D29AD00 /* Pods_WEATHERinka_WEATHERinkaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C4C3E274458B85772B824CD /* Pods-WEATHERinkaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WEATHERinkaTests.debug.xcconfig"; path = "Target Support Files/Pods-WEATHERinkaTests/Pods-WEATHERinkaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E5C5EA7D85B6CE517D2F042 /* Pods-WEATHERinka-WEATHERinkaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WEATHERinka-WEATHERinkaUITests.release.xcconfig"; path = "Target Support Files/Pods-WEATHERinka-WEATHERinkaUITests/Pods-WEATHERinka-WEATHERinkaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		10BE46A06B3F2D688D29AD00 /* Pods_WEATHERinka_WEATHERinkaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WEATHERinka_WEATHERinkaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0916CBE1EBDD7BA3A9FDBA /* Pods_WEATHERinkaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WEATHERinkaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7974227B610C3A5171996C92 /* Pods-WEATHERinka-WEATHERinkaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WEATHERinka-WEATHERinkaUITests.debug.xcconfig"; path = "Target Support Files/Pods-WEATHERinka-WEATHERinkaUITests/Pods-WEATHERinka-WEATHERinkaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A6C4A4D860A03D4A0E7D1C2 /* Pods-WEATHERinka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WEATHERinka.debug.xcconfig"; path = "Target Support Files/Pods-WEATHERinka/Pods-WEATHERinka.debug.xcconfig"; sourceTree = "<group>"; };
 		B68A67A72B55371D0087A74D /* WEATHERinka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEATHERinka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68A67AA2B55371D0087A74D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B68A67AC2B55371D0087A74D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		B68A67CA2B55371F0087A74D /* WEATHERinkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WEATHERinkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68A67CE2B55371F0087A74D /* WEATHERinkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEATHERinkaUITests.swift; sourceTree = "<group>"; };
 		B68A67D02B55371F0087A74D /* WEATHERinkaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEATHERinkaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA48C29E51947264EC2197DB /* Pods-WEATHERinkaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WEATHERinkaTests.release.xcconfig"; path = "Target Support Files/Pods-WEATHERinkaTests/Pods-WEATHERinkaTests.release.xcconfig"; sourceTree = "<group>"; };
+		C71ADADB1A220A21633F60BA /* Pods-WEATHERinka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WEATHERinka.release.xcconfig"; path = "Target Support Files/Pods-WEATHERinka/Pods-WEATHERinka.release.xcconfig"; sourceTree = "<group>"; };
+		FBA86E1375B4F7B05B77B1E4 /* Pods_WEATHERinka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WEATHERinka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A02485B436967C89D24AB92 /* Pods_WEATHERinka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A9EAF4174B8F5E8F35452CA /* Pods_WEATHERinkaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C01E4F86FF7428FFDFC5235C /* Pods_WEATHERinka_WEATHERinkaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		059E4AA48814EFB975F75932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBA86E1375B4F7B05B77B1E4 /* Pods_WEATHERinka.framework */,
+				10BE46A06B3F2D688D29AD00 /* Pods_WEATHERinka_WEATHERinkaUITests.framework */,
+				3E0916CBE1EBDD7BA3A9FDBA /* Pods_WEATHERinkaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FF0F6B00ED2B3D68EB4A608 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A6C4A4D860A03D4A0E7D1C2 /* Pods-WEATHERinka.debug.xcconfig */,
+				C71ADADB1A220A21633F60BA /* Pods-WEATHERinka.release.xcconfig */,
+				7974227B610C3A5171996C92 /* Pods-WEATHERinka-WEATHERinkaUITests.debug.xcconfig */,
+				0E5C5EA7D85B6CE517D2F042 /* Pods-WEATHERinka-WEATHERinkaUITests.release.xcconfig */,
+				0C4C3E274458B85772B824CD /* Pods-WEATHERinkaTests.debug.xcconfig */,
+				BA48C29E51947264EC2197DB /* Pods-WEATHERinkaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B68A679E2B55371D0087A74D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				B68A67C32B55371F0087A74D /* WEATHERinkaTests */,
 				B68A67CD2B55371F0087A74D /* WEATHERinkaUITests */,
 				B68A67A82B55371D0087A74D /* Products */,
+				4FF0F6B00ED2B3D68EB4A608 /* Pods */,
+				059E4AA48814EFB975F75932 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B68A67D42B55371F0087A74D /* Build configuration list for PBXNativeTarget "WEATHERinka" */;
 			buildPhases = (
+				6FEEF8E4C6DC60FB6D52E4F8 /* [CP] Check Pods Manifest.lock */,
 				B68A67A32B55371D0087A74D /* Sources */,
 				B68A67A42B55371D0087A74D /* Frameworks */,
 				B68A67A52B55371D0087A74D /* Resources */,
+				18AB43AE693DE2E9B6246AE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B68A67D72B55371F0087A74D /* Build configuration list for PBXNativeTarget "WEATHERinkaTests" */;
 			buildPhases = (
+				9728A282CFCE823A6ED71435 /* [CP] Check Pods Manifest.lock */,
 				B68A67BC2B55371F0087A74D /* Sources */,
 				B68A67BD2B55371F0087A74D /* Frameworks */,
 				B68A67BE2B55371F0087A74D /* Resources */,
+				FC0D5EC56416B510DC24CCD3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B68A67DA2B55371F0087A74D /* Build configuration list for PBXNativeTarget "WEATHERinkaUITests" */;
 			buildPhases = (
+				8488198254236CEAC12A445D /* [CP] Check Pods Manifest.lock */,
 				B68A67C62B55371F0087A74D /* Sources */,
 				B68A67C72B55371F0087A74D /* Frameworks */,
 				B68A67C82B55371F0087A74D /* Resources */,
+				11FFE455618C6FA55FA53C5D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,6 +297,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11FFE455618C6FA55FA53C5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WEATHERinka-WEATHERinkaUITests/Pods-WEATHERinka-WEATHERinkaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WEATHERinka-WEATHERinkaUITests/Pods-WEATHERinka-WEATHERinkaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WEATHERinka-WEATHERinkaUITests/Pods-WEATHERinka-WEATHERinkaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18AB43AE693DE2E9B6246AE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WEATHERinka/Pods-WEATHERinka-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WEATHERinka/Pods-WEATHERinka-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WEATHERinka/Pods-WEATHERinka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FEEF8E4C6DC60FB6D52E4F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WEATHERinka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8488198254236CEAC12A445D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WEATHERinka-WEATHERinkaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9728A282CFCE823A6ED71435 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WEATHERinkaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC0D5EC56416B510DC24CCD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WEATHERinkaTests/Pods-WEATHERinkaTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WEATHERinkaTests/Pods-WEATHERinkaTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WEATHERinkaTests/Pods-WEATHERinkaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B68A67A32B55371D0087A74D /* Sources */ = {
@@ -429,12 +595,14 @@
 		};
 		B68A67D52B55371F0087A74D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A6C4A4D860A03D4A0E7D1C2 /* Pods-WEATHERinka.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P433G7GD7J;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WEATHERinka/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WEATHERinka;
@@ -463,12 +631,14 @@
 		};
 		B68A67D62B55371F0087A74D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C71ADADB1A220A21633F60BA /* Pods-WEATHERinka.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P433G7GD7J;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WEATHERinka/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WEATHERinka;
@@ -497,6 +667,7 @@
 		};
 		B68A67D82B55371F0087A74D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C4C3E274458B85772B824CD /* Pods-WEATHERinkaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,19 +675,23 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P433G7GD7J;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shabalin13.WEATHERinkaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WEATHERinka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WEATHERinka";
 			};
 			name = Debug;
 		};
 		B68A67D92B55371F0087A74D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA48C29E51947264EC2197DB /* Pods-WEATHERinkaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,49 +699,62 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P433G7GD7J;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shabalin13.WEATHERinkaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WEATHERinka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WEATHERinka";
 			};
 			name = Release;
 		};
 		B68A67DB2B55371F0087A74D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7974227B610C3A5171996C92 /* Pods-WEATHERinka-WEATHERinkaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P433G7GD7J;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shabalin13.WEATHERinkaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = WEATHERinka;
 			};
 			name = Debug;
 		};
 		B68A67DC2B55371F0087A74D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E5C5EA7D85B6CE517D2F042 /* Pods-WEATHERinka-WEATHERinkaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P433G7GD7J;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shabalin13.WEATHERinkaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = WEATHERinka;
 			};
 			name = Release;
