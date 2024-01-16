@@ -25,6 +25,7 @@ class CitiesViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .yellow
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(comeBackFromCities))
+        self.viewModel.getCitiesInfo(cityNameToAutocomplete: "Almet")
     }
     
     @objc func comeBackFromCities() {
