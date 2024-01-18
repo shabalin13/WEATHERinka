@@ -32,6 +32,8 @@
 		B68A68032B5692840087A74D /* CityInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A68022B5692840087A74D /* CityInfo.swift */; };
 		B68A68052B5692AA0087A74D /* CitiesInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A68042B5692AA0087A74D /* CitiesInfo.swift */; };
 		B68A68072B5697E40087A74D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A68062B5697E40087A74D /* LocationManager.swift */; };
+		B68A68092B56F2830087A74D /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A68082B56F2830087A74D /* SearchResultsViewController.swift */; };
+		B68A680C2B56F5E90087A74D /* CityItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A680B2B56F5E90087A74D /* CityItem.swift */; };
 		C01E4F86FF7428FFDFC5235C /* Pods_WEATHERinka_WEATHERinkaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BE46A06B3F2D688D29AD00 /* Pods_WEATHERinka_WEATHERinkaUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +88,8 @@
 		B68A68022B5692840087A74D /* CityInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityInfo.swift; sourceTree = "<group>"; };
 		B68A68042B5692AA0087A74D /* CitiesInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesInfo.swift; sourceTree = "<group>"; };
 		B68A68062B5697E40087A74D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B68A68082B56F2830087A74D /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		B68A680B2B56F5E90087A74D /* CityItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityItem.swift; sourceTree = "<group>"; };
 		BA48C29E51947264EC2197DB /* Pods-WEATHERinkaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WEATHERinkaTests.release.xcconfig"; path = "Target Support Files/Pods-WEATHERinkaTests/Pods-WEATHERinkaTests.release.xcconfig"; sourceTree = "<group>"; };
 		C71ADADB1A220A21633F60BA /* Pods-WEATHERinka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WEATHERinka.release.xcconfig"; path = "Target Support Files/Pods-WEATHERinka/Pods-WEATHERinka.release.xcconfig"; sourceTree = "<group>"; };
 		FBA86E1375B4F7B05B77B1E4 /* Pods_WEATHERinka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WEATHERinka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				B68A67ED2B5547120087A74D /* CitiesViewController.swift */,
+				B68A68082B56F2830087A74D /* SearchResultsViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,11 +287,20 @@
 		B68A67FF2B568F6A0087A74D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B68A680A2B56F5D30087A74D /* Items */,
 				B68A68002B568F790087A74D /* MapsAccessToken.swift */,
 				B68A68022B5692840087A74D /* CityInfo.swift */,
 				B68A68042B5692AA0087A74D /* CitiesInfo.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B68A680A2B56F5D30087A74D /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				B68A680B2B56F5E90087A74D /* CityItem.swift */,
+			);
+			path = Items;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -554,9 +568,11 @@
 				B68A67E82B55455E0087A74D /* CitiesCoordinator.swift in Sources */,
 				B68A67F22B5548C70087A74D /* WeatherViewModel.swift in Sources */,
 				B68A68072B5697E40087A74D /* LocationManager.swift in Sources */,
+				B68A680C2B56F5E90087A74D /* CityItem.swift in Sources */,
 				B68A68012B568F790087A74D /* MapsAccessToken.swift in Sources */,
 				B68A67FC2B568BE40087A74D /* Constants.swift in Sources */,
 				B68A67AD2B55371D0087A74D /* SceneDelegate.swift in Sources */,
+				B68A68092B56F2830087A74D /* SearchResultsViewController.swift in Sources */,
 				B68A67EC2B55469C0087A74D /* CitiesViewModel.swift in Sources */,
 				B68A67B52B55371D0087A74D /* WEATHERinka.xcdatamodeld in Sources */,
 				B68A67E62B55452A0087A74D /* WeatherCoordinator.swift in Sources */,
