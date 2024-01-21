@@ -64,7 +64,7 @@ class CitiesViewController: UIViewController {
         navigationItem.hidesSearchBarWhenScrolling = false
     }
     
-    private func updateSearchResultsController(cityItems: CityItems) {
+    private func updateSearchResultsController(cityItems: [CityItem]) {
         if let searchResultsController = searchController.searchResultsController as? SearchResultsViewController {
             searchResultsController.updateView(cityItems: cityItems)
         }
@@ -86,7 +86,7 @@ extension CitiesViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
         if let cityNameToAutocomplete = searchController.searchBar.text, !cityNameToAutocomplete.isEmpty {
             print(cityNameToAutocomplete)
-            viewModel.getCitiesInfo(cityNameToAutocomplete: cityNameToAutocomplete)
+            viewModel.getCities(cityNameToAutocomplete: cityNameToAutocomplete)
         } else if let searchResultsController = searchController.searchResultsController as? SearchResultsViewController {
             searchResultsController.updateView(cityItems: [])
         }

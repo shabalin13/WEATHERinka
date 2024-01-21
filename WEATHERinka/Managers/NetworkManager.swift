@@ -11,9 +11,9 @@ import Dispatch
 
 protocol NetworkManagerProtocol {
     
-    func getCitiesInfo(cityNameToAutocomplete: String,
+    func getCities(cityNameToAutocomplete: String,
                   userLocation: (latitude: Double, longitude: Double),
-                  completionHadler: @escaping (Swift.Result<CitiesInfo, Error>) -> Void)
+                  completionHadler: @escaping (Swift.Result<Cities, Error>) -> Void)
     
 }
 
@@ -21,7 +21,7 @@ final class NetworkManager: NetworkManagerProtocol {
     
     enum NetworkManagerError: Error, LocalizedError {
         case getMapsAccessTokenFailed
-        case getCitiesInfoFailed
+        case getCitiesFailed
     }
     
     private func getMapsAccessToken(completionHadler: @escaping (Result<MapsAccessToken, Error>) -> Void) {
@@ -35,16 +35,16 @@ final class NetworkManager: NetworkManagerProtocol {
         }
     }
     
-    func getCitiesInfo(cityNameToAutocomplete: String, userLocation: (latitude: Double, longitude: Double), completionHadler: @escaping (Result<CitiesInfo, Error>) -> Void) {
+    func getCities(cityNameToAutocomplete: String, userLocation: (latitude: Double, longitude: Double), completionHadler: @escaping (Result<Cities, Error>) -> Void) {
         getMapsAccessToken { result in
             switch result {
             case .success(let mapsAccessToken):
-                AF.request(NetworkRouter.citiesInfo(mapsAccessToken: mapsAccessToken, cityNameToAutocomplete: cityNameToAutocomplete, userLocation: userLocation)).validate().responseDecodable(of: CitiesInfo.self, queue: .global()) { response in
+                AF.request(NetworkRouter.cities(mapsAccessToken: mapsAccessToken, cityNameToAutocomplete: cityNameToAutocomplete, userLocation: userLocation)).validate().responseDecodable(of: Cities.self, queue: .global()) { response in
                     switch response.result {
-                    case .success(let citiesInfo):
-                        completionHadler(.success(citiesInfo))
+                    case .success(let cities):
+                        completionHadler(.success(cities))
                     case .failure(_):
-                        completionHadler(.failure(NetworkManagerError.getCitiesInfoFailed))
+                        completionHadler(.failure(NetworkManagerError.getCitiesFailed))
                     }
                 }
             case .failure(let error):
