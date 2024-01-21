@@ -46,11 +46,11 @@ class SearchResultsViewController: UIViewController {
         return dataSource
     }
     
-    func updateView(cityItems: CityItems) {
+    func updateView(cityItems: [CityItem]) {
         createSnapshot(cityItems: cityItems)
     }
     
-    func createSnapshot(cityItems: CityItems) {
+    func createSnapshot(cityItems: [CityItem]) {
         var snapshot = NSDiffableDataSourceSnapshot<Int, CityItem>()
         snapshot.appendSections([0])
         snapshot.appendItems(cityItems)

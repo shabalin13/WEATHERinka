@@ -11,12 +11,12 @@ import Alamofire
 enum NetworkRouter {
     
     case mapsAccessToken
-    case citiesInfo(mapsAccessToken: MapsAccessToken, cityNameToAutocomplete: String,
+    case cities(mapsAccessToken: MapsAccessToken, cityNameToAutocomplete: String,
                     userLocation: (latitude: Double, longitude: Double))
     
     var baseURL: URL {
         switch self {
-        case .mapsAccessToken, .citiesInfo:
+        case .mapsAccessToken, .cities:
             return URL(string: "https://maps-api.apple.com")!
         }
     }
@@ -25,14 +25,14 @@ enum NetworkRouter {
         switch self {
         case .mapsAccessToken:
             return "v1/token"
-        case .citiesInfo:
+        case .cities:
             return "v1/searchAutocomplete"
         }
     }
     
     var method: HTTPMethod {
         switch self {
-        case .mapsAccessToken, .citiesInfo:
+        case .mapsAccessToken, .cities:
             return .get
         }
     }
@@ -41,7 +41,7 @@ enum NetworkRouter {
         switch self {
         case .mapsAccessToken:
             return ["Authorization": "Bearer \(Constants.NetworkManagerConstants.jwtMapKitToken)"]
-        case .citiesInfo(let mapsAccessToken, _, _):
+        case .cities(let mapsAccessToken, _, _):
             return ["Authorization": "Bearer \(mapsAccessToken.token)"]
         }
     }
@@ -50,7 +50,7 @@ enum NetworkRouter {
         switch self {
         case .mapsAccessToken:
             return [:]
-        case .citiesInfo(_, let cityNameToAutocomplete, let userLocation):
+        case .cities(_, let cityNameToAutocomplete, let userLocation):
             return ["q": cityNameToAutocomplete,
                     "userLocation": "\(userLocation.latitude),\(userLocation.longitude)",
                     "lang": Constants.NetworkManagerConstants.lang,
